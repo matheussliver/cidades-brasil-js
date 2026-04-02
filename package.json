@@ -1,0 +1,11 @@
+{
+  "name": "ibge-municipios-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API simples em JavaScript para sincronizar municipios brasileiros a partir do IBGE.",
+  "scripts": {
+    "start": "node src/index.js",
+    "sync": "node src/cli-sync.js",
+    "test": "node --test"
+  }
+}
